@@ -1,1 +1,1 @@
-# MailParserYandex
+# MailParser
