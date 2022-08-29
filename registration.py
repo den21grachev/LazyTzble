@@ -1,5 +1,3 @@
-
-
 # Список команд для регистрации.
 list_xpath = {
     # Кнопка Войти
@@ -20,16 +18,18 @@ list_xpath = {
     "ew_action Button2_width_max Button2_type_submit']",
 }
 
-
 # ЭТА ФУНКЦИЯ АВТОРИЗУЕТСЯ НА САЙТЕ.
 def run(driver, Keys, By, time):
+
+    log = input("Введите свой логин: ")
+    pas = input("Введите свой пароль: ")
+
     # Накопиель
     total = 0
     # Шаги
     step = 1
 
-
-    lp = []
+    lp = [log, pas]
 
     for key, value in list_xpath.items():
 
@@ -53,5 +53,5 @@ def run(driver, Keys, By, time):
 
         url = driver.current_url
         print(url)
-        print(step, '......Этап.....')
+        print(step, '......Этап загрузки.....')
         step += 1

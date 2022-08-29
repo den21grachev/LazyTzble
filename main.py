@@ -5,17 +5,18 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import gspread
 
+# Time variables.
 import time
 from datetime import date
 
-
+# Modules of other files.
 import registration
 import message_processing
 import parser_sheat
 import write_number
 
 
-# Настройки для браузера. 
+# Browser settings. 
 option = webdriver.FirefoxOptions()
 # Selenium dedection bypass.
 option.set_preference('dom.webdriver.enabled', False)
