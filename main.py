@@ -15,7 +15,7 @@ import parser_sheat
 import write_number
 
 
-# Firefox settings.
+# Настройки для браузера. 
 option = webdriver.FirefoxOptions()
 # Selenium dedection bypass.
 option.set_preference('dom.webdriver.enabled', False)

@@ -4,3 +4,13 @@ git init
 git add name 
     *Добавляет все содержимое.
 git add .
+    * Создает комит.
+git commit -m "comment"
+    * Просмотор созданных комитов.
+git log
+    * Создает связь с проектом на сервере.
+git remote add <name> github http://github.com/<name>
+    * Закачивает файлы на сервер. (выполняется только первый раз)
+git push -u <name> master
+    * Последующие загрузки.
+git push

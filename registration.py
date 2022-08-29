@@ -29,7 +29,7 @@ def run(driver, Keys, By, time):
     step = 1
 
 
-    lp = ["den21grachev@yandex.ru", "rgir28febk"]
+    lp = []
 
     for key, value in list_xpath.items():
 
